@@ -42,9 +42,9 @@ The `breadth_first_search()` method in **_search.py_** returns a path of nodes f
 
 The `uniform_cost_search()` method in **_search.py_** should return the same arguments as breadth-first search: the path to the goal node (as a list of nodes) however it uses the uniform cost search algorithm. 
 
-#### Warmup 4: A* search
+#### A-Star search
 
-Implemented A* search using Euclidean distance as the heuristic. 
+Implemented A-Star search using Euclidean distance as the heuristic. 
 <img src="./figures/a_star.png" width="600">
 ---
 ### Bidirectional Algorithms
