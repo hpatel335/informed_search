@@ -32,6 +32,7 @@ The `uniform_cost_search()` method in **_search.py_** should return the same arg
 Implemented A-Star search using Euclidean distance as the heuristic. 
 
 <img src="./figures/a_star.png" width="600">
+
 ---
 ### Bidirectional Algorithms
 Several bidirectional algorithms have also been implimented. The benefits of these algorithms over uninformed or unidirectional search are more clearly seen on larger graphs.
