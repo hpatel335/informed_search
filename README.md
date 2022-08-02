@@ -1,5 +1,5 @@
 
-# CS 6601: Artificial Intelligence - Assignment 1 - Search
+# Informed Search
 
 ## Overview
 
