@@ -30,6 +30,7 @@ The `uniform_cost_search()` method in **_search.py_** should return the same arg
 
 #### A-Star search
 Implemented A-Star search using Euclidean distance as the heuristic. 
+
 <img src="./figures/a_star.png" width="600">
 ---
 ### Bidirectional Algorithms
@@ -38,12 +39,11 @@ Several bidirectional algorithms have also been implimented. The benefits of the
 #### Bidirectional uniform-cost search
 
  Bidirectional uniform-cost search starting the search at both the start and end states. 
+ 
  <img src="./figures/bi_usc.png" width="600">
 
 
 #### Bidirectional A-Star search
-
-
 Bidirectional A-Star search that calculates a heuristic for both the start-to-goal search and the goal-to-start search.
 
 #### Tridirectional UCS search
