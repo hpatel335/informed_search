@@ -16,20 +16,6 @@ We will be using an undirected network representing a map of Romania (and an opt
 Since the Atlanta graph network is too big to display within a Python window like Romania, running the **_search_tests_grid.py_** generates a JSON file in the GeoJSON format. To see the graph, you can upload it to a private GitHub Gist or use [this](http://geojson.io/) site.
 If you want to see how **_visualize_graph.py_** is used, take a look at the class TestBidirectionalSearch in **_search_tests.py_**
 
-<!---
-* Individual tests can be run using the following:
-```python
-import search_tests as tests
-tests.TestPriorityQueue().test_append_and_pop()
-```
-* For running the search tests, use this:
-``` python
-import search_tests as tests
-testclass = tests.TestBasicSearch()
-testclass.setUp()
-testclass.test_bfs()
-```
--->
 ## Search Algorithms
 
 ### Basic Search Algorithms 
@@ -43,7 +29,6 @@ The `breadth_first_search()` method in **_search.py_** returns a path of nodes f
 The `uniform_cost_search()` method in **_search.py_** should return the same arguments as breadth-first search: the path to the goal node (as a list of nodes) however it uses the uniform cost search algorithm. 
 
 #### A-Star search
-
 Implemented A-Star search using Euclidean distance as the heuristic. 
 <img src="./figures/a_star.png" width="600">
 ---
@@ -56,11 +41,10 @@ Several bidirectional algorithms have also been implimented. The benefits of the
  <img src="./figures/bi_usc.png" width="600">
 
 
-#### Bidirectional A* search
+#### Bidirectional A-Star search
 
-_[29 points]_
 
-Bidirectional A* search that calculates a heuristic for both the start-to-goal search and the goal-to-start search.
+Bidirectional A-Star search that calculates a heuristic for both the start-to-goal search and the goal-to-start search.
 
 #### Tridirectional UCS search
 
