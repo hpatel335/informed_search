@@ -1,0 +1,4 @@
+WarmUps 
+
+For UCS find out if it's ok that explored paths is greater than nominal.
+Investigate the failure in Bidirectional A* algorithm.
